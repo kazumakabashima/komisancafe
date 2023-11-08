@@ -12,7 +12,7 @@ li {
 
 /* page-style */
 .container {
-    background: url('https://github.com/kazumakabashima/komisancafe/blob/main/IMG_05563.png') fixed no-repeat center, center;
+    background: url('https://github.com/kazumakabashima/komisancafe/blob/main/IMG_05563.png?raw=true') fixed no-repeat center, center;
     background-size: cover;
     font-family: "MS P明朝", sans-serif;
     color: #FFFFFF;
