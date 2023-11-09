@@ -21,6 +21,18 @@ li {
     background-attachment: fixed; /* This prevents scrolling on iPhones */
 }
 
+/* parallax */
+.parallax::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url('./images/IMG_05563.png');
+    position: fixed;
+}
+
 /* ページタイトル */
 .page-title {
     padding-top:80px;
