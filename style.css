@@ -12,13 +12,10 @@ li {
 
 /* page-style */
 .container {
-    background: url('https://github.com/kazumakabashima/komisancafe/blob/main/IMG_05563.png?raw=true') fixed no-repeat center, center;
-    background-size: cover;
     font-family: "MS P明朝", sans-serif;
     color: #FFFFFF;
     text-align: center;
     padding:0 50px;
-    background-attachment: fixed; /* This prevents scrolling on iPhones */
 }
 
 /* parallax */
@@ -28,11 +25,12 @@ li {
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
     z-index: -1;
-    background-image: url('./images/IMG_05563.png');
-    position: fixed;
+    background-image: url('https://github.com/kazumakabashima/komisancafe/blob/main/IMG_05563.png?raw=true');
+    background-size: cover;
 }
-
 /* ページタイトル */
 .page-title {
     padding-top:80px;
